@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Groceries</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your Grocery List!</h1><br>
+      <form class="form-inline">
+        <div class="row">
+          <div class="col-sm-4">
+            <label for="fruit">Enter a fruit: </label>
+            <input id="fruit" type="text" class="form-control">
+            <hr>
+            <label for="veggie">Enter a veggie: </label>
+            <input id="veggie" type="text" class="form-control">
+          </div>
+          <div class="col-sm-4">
+            <label for="carb">Enter a carb: </label>
+            <input id="carb" type="text" class="form-control">
+            <hr>
+            <label for="snack">Enter a snack: </label>
+            <input id="snack" type="text" class="form-control">
+          </div>
+          <div class="col-sm-4">
+            <label for="dessert">Enter a dessert: </label>
+            <input id="dessert" type="text" class="form-control">
+            <hr>
+            <label for="drink">Enter a drink: </label>
+            <input id="drink" type="text" class="form-control">
+          </div>
+        </div>
+        <div class="row">
+          <button type="submit" class="btn btn-lg btn-warning">Show me my list!</button>
+        </div>
+      </form>
+      <ol>
+        <h2>My grocery List</h2>
+      </ol>
+    </div>
+  </body>
+</html>
